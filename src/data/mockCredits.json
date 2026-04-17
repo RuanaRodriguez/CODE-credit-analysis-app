@@ -1,0 +1,107 @@
+[
+  {
+    "id": "credit1",
+    "customerId": "cust1",
+    "numeroSolicitacao": "SOL-000001",
+    "cpfCnpj": "123.456.789-00",
+    "nomeRazaoSocial": "João Silva Santos",
+    "valorSolicitado": 15000,
+    "income": 8500,
+    "bandeiraId": "visa",
+    "modalidadeVendaId": "parcelado",
+    "status": "Aprovada",
+    "dataInclusao": "2026-04-10T10:30:00.000Z",
+    "analysisResult": {
+      "approved": true,
+      "approvedAmount": 15000,
+      "interest": 3.5,
+      "term": 24,
+      "score": {
+        "score": 720,
+        "risk": "Baixo"
+      }
+    }
+  },
+  {
+    "id": "credit2",
+    "customerId": "cust2",
+    "numeroSolicitacao": "SOL-000002",
+    "cpfCnpj": "12.345.678/0001-90",
+    "nomeRazaoSocial": "Maria Oliveira Ltda",
+    "valorSolicitado": 80000,
+    "income": 25000,
+    "bandeiraId": "mastercard",
+    "modalidadeVendaId": "cartao_credito",
+    "status": "Em Aprovação",
+    "dataInclusao": "2026-04-14T14:20:00.000Z",
+    "analysisResult": {
+      "approved": true,
+      "approvedAmount": 80000,
+      "interest": 2.5,
+      "term": 36,
+      "score": {
+        "score": 780,
+        "risk": "Baixo"
+      }
+    }
+  },
+  {
+    "id": "credit3",
+    "customerId": "cust3",
+    "numeroSolicitacao": "SOL-000003",
+    "cpfCnpj": "987.654.321-00",
+    "nomeRazaoSocial": "Pedro Henrique Costa",
+    "valorSolicitado": 35000,
+    "income": 5200,
+    "bandeiraId": "elo",
+    "modalidadeVendaId": "parcelado",
+    "status": "Rejeitada",
+    "dataInclusao": "2026-04-12T09:15:00.000Z",
+    "analysisResult": {
+      "approved": false,
+      "approvedAmount": 0,
+      "interest": 5.0,
+      "term": 12,
+      "score": {
+        "score": 540,
+        "risk": "Alto"
+      }
+    }
+  },
+  {
+    "id": "credit4",
+    "customerId": "cust4",
+    "numeroSolicitacao": "SOL-000004",
+    "cpfCnpj": "98.765.432/0001-10",
+    "nomeRazaoSocial": "TechStart Solutions",
+    "valorSolicitado": 150000,
+    "income": 45000,
+    "bandeiraId": "visa",
+    "modalidadeVendaId": "boleto",
+    "status": "Aprovada",
+    "dataInclusao": "2026-04-08T11:45:00.000Z",
+    "analysisResult": {
+      "approved": true,
+      "approvedAmount": 150000,
+      "interest": 2.0,
+      "term": 36,
+      "score": {
+        "score": 820,
+        "risk": "Baixo"
+      }
+    }
+  },
+  {
+    "id": "credit5",
+    "customerId": "cust5",
+    "numeroSolicitacao": "SOL-000005",
+    "cpfCnpj": "456.789.123-00",
+    "nomeRazaoSocial": "Ana Carolina Mendes",
+    "valorSolicitado": 25000,
+    "income": 12000,
+    "bandeiraId": "mastercard",
+    "modalidadeVendaId": "cartao_credito",
+    "status": "Em Análise",
+    "dataInclusao": "2026-04-15T16:30:00.000Z"
+  }
+]

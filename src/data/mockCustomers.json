@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cust1",
+    "name": "João Silva Santos",
+    "cpf": "123.456.789-00",
+    "email": "joao.silva@email.com",
+    "phone": "(11) 98765-4321",
+    "income": 8500,
+    "createdAt": "2026-03-15T10:30:00.000Z"
+  },
+  {
+    "id": "cust2",
+    "name": "Maria Oliveira Ltda",
+    "cnpj": "12.345.678/0001-90",
+    "email": "contato@mariaoliveira.com.br",
+    "phone": "(11) 3456-7890",
+    "income": 25000,
+    "createdAt": "2026-03-10T14:20:00.000Z"
+  },
+  {
+    "id": "cust3",
+    "name": "Pedro Henrique Costa",
+    "cpf": "987.654.321-00",
+    "email": "pedro.costa@email.com",
+    "phone": "(21) 99876-5432",
+    "income": 5200,
+    "createdAt": "2026-03-20T09:15:00.000Z"
+  },
+  {
+    "id": "cust4",
+    "name": "TechStart Solutions",
+    "cnpj": "98.765.432/0001-10",
+    "email": "comercial@techstart.com",
+    "phone": "(11) 2345-6789",
+    "income": 45000,
+    "createdAt": "2026-02-28T11:45:00.000Z"
+  },
+  {
+    "id": "cust5",
+    "name": "Ana Carolina Mendes",
+    "cpf": "456.789.123-00",
+    "email": "ana.mendes@email.com",
+    "phone": "(47) 98123-4567",
+    "income": 12000,
+    "createdAt": "2026-04-01T16:30:00.000Z"
+  }
+]
